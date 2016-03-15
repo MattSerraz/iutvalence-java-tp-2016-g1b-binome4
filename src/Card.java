@@ -1,4 +1,4 @@
-public class CARD {
+public class Card {
 
 	private int position_x;
 	private int position_y;

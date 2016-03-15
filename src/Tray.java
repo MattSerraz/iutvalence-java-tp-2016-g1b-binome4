@@ -1,4 +1,4 @@
-public class TRAY {
+public class Tray {
 
 	private int x;
 	private int y;

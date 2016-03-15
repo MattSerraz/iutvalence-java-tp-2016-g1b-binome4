@@ -1,4 +1,4 @@
-public class PLAYER {
+public class Player {
 
 	private string name;
 	private int best_score;

@@ -1,31 +1,55 @@
+/**
+ * TODO.
+ *
+ * @author TODO
+ * @version TODO
+ */
 public class Tray {
+    /** TODO. */
+    private int x;
+    /** TODO. */
+    private int y;
+    // TODO constant?
+    /** TODO. */
+    private int DIMENSION_X = 2;
+    // TODO constant?
+    /** TODO. */
+    private int DIMENSION_Y = 2;
 
-	private int x;
-	private int y;
-	private int DIMENSION_X = 2 : int;
-	private int DIMENSION_Y = 2 : int;
+    /**
+     * TODO.
+     *
+     * @param dimensionX TODO
+     * @param dimensionY TODO
+     */
+    public Tray(int dimensionX, int dimensionY) {
+        // TODO - implement TRAY.createTray
+        throw new UnsupportedOperationException();
+    }
 
-	/**
-	 * 
-	 * @param DIMENSION_X
-	 * @param DIMENSION_Y
-	 */
-	public void createTray(int DIMENSION_X, int DIMENSION_Y) {
-		// TODO - implement TRAY.createTray
-		throw new UnsupportedOperationException();
-	}
+    /**
+     * TODO
+     */
+    public Tray() {
+        // TODO - implement TRAY.createTray
+        throw new UnsupportedOperationException();
+    }
 
-	public void createTray() {
-		// TODO - implement TRAY.createTray
-		throw new UnsupportedOperationException();
-	}
+    /**
+     * TODO.
+     *
+     * @return TODO
+     */
+    public int getX() {
+        return this.x;
+    }
 
-	public int getX() {
-		return this.x;
-	}
-
-	public int getY() {
-		return this.y;
-	}
-
+    /**
+     * TODO.
+     *
+     * @return TODO
+     */
+    public int getY() {
+        return this.y;
+    }
 }

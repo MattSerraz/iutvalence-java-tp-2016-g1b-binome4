@@ -1,29 +1,32 @@
+/**
+ * TODO.
+ *
+ * @author TODO
+ * @version TODO
+ */
 public class Card {
+    // TODO position_x -> positionX
+    /** TODO. */
+    private int position_x;
+    // TODO position_x -> positionY
+    /** TODO. */
+    private int position_y;
 
-	private int position_x;
-	private int position_y;
+    public void givePosition(int positionX, int positionY) {
+        // TODO - implement CARD.givePosition
+        throw new UnsupportedOperationException();
+    }
 
-	/**
-	 * 
-	 * @param position_x
-	 * @param position_y
-	 */
-	public void givePosition(int position_x, int position_y) {
-		// TODO - implement CARD.givePosition
-		throw new UnsupportedOperationException();
-	}
+    public void givePosition() {
+        // TODO - implement CARD.givePosition
+        throw new UnsupportedOperationException();
+    }
 
-	public void givePosition() {
-		// TODO - implement CARD.givePosition
-		throw new UnsupportedOperationException();
-	}
+    public int getPosition_x() {
+        return this.position_x;
+    }
 
-	public int getPosition_x() {
-		return this.position_x;
-	}
-
-	public int getPosition_y() {
-		return this.position_y;
-	}
-
+    public int getPosition_y() {
+        return this.position_y;
+    }
 }

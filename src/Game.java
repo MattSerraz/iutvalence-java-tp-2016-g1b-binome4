@@ -1,5 +1,10 @@
+/**
+ * TODO.
+ *
+ * @author TODO
+ * @version TODO
+ */
 public class Game {
-
-	private int turn;
-
+    /** TODO. */
+    private int turn;
 }

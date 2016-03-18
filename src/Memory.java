@@ -12,5 +12,7 @@ public class Memory {
      */
     public static void main(final String... args) {
         // TODO
+    	Game game = new Game();
+    	game.start();
     }
 }

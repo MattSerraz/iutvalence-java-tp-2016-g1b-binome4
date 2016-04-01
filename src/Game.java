@@ -7,14 +7,20 @@
 public class Game {
     /** TODO. */
     private int turn;
-	private int best_score;
-	private int actual_score;
-	private Player name;
+	private Player player;
     
-    public Game()
+    public void Game()
     {
-    	Player player = new Player();
+    	Player player = new Player("Toto");
+    	Tray tray = new Tray();
+    }
+    
+    public void start() {
+    	System.out.println("Welcome Toto");
+    	// Afficher le tray
+
+    	Tray.print();
+    	// Démarrer la partie
     }
 
-	
 }

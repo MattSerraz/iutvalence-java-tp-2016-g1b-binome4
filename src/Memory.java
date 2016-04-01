@@ -14,5 +14,6 @@ public class Memory {
         // TODO
     	Game game = new Game();
     	game.start();
+    	
     }
 }

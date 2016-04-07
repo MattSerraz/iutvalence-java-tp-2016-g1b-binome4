@@ -1,4 +1,5 @@
-/**7
+/**
+ * 7
  * TODO.
  *
  * @author TODO
@@ -8,12 +9,13 @@ public class Player {
     /** TODO. */
     public final String name;
 
+    /** TODO. */
     public Player(String name) {
-    	this.name = name;
+        this.name = name;
     }
-    
-	public String name() 
-	{
-		return name;
-	}
+
+    /** TODO. */
+    public String name() {
+        return name;
+    }
 }

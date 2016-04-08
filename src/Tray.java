@@ -22,17 +22,22 @@ public class Tray {
         height = this.HEIGHT;
 
         cards = new Card[WIDTH][HEIGHT];
-        for (int i = 0; i < Tray.WIDTH; i++) {
-            for (int j = 0; j < Tray.HEIGHT; j++) {
-                cards[i][j] = new Card(i);
+        for (int i = 0; i < Tray.WIDTH; i++) 
+        {
+            for (int j = 0; j < Tray.HEIGHT; j++)
+            {
+                String backFace = null;
+				cards[i][j] = new Card(backFace, i);
             }
         }
     }
 
     /** TODO. */
     public void print() {
-        for (int i = 0; i < Tray.WIDTH; i++) {
-            for (int j = 0; j < Tray.HEIGHT; j++) {
+        for (int i = 0; i < Tray.WIDTH; i++) 
+        {
+            for (int j = 0; j < Tray.HEIGHT; j++) 
+            {
                 System.out.println(cards[i][j]);
             }
         }

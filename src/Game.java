@@ -8,20 +8,20 @@ public class Game {
     /** TODO. */
     private int    turn;
     /** TODO. */
-    private Player player;
+    private final Player player;
 
+    private final Tray tray;
     /** TODO. */
-    public void Game() {
-        Player player = new Player("Toto");
-        Tray tray = new Tray();
+    public Game() {
+        player = new Player("Toto");
+        tray = new Tray();
     }
 
     /** TODO. */
     public void start() {
         System.out.println("Welcome Toto");
         // Afficher le tray
-
-        // Tray.print();
-        // D�marrer la partie
+        tray.print();
+        // Demarrer la partie
     }
 }

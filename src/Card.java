@@ -6,30 +6,41 @@
  */
 public class Card {
     /** TODO. */
-    private final int     symbole;
+    private final int symbole;
     /** TODO. */
-    public        String  back;
+    public String back;
     /** TODO. */
-    private       boolean showFace;
+    private boolean showFace;
 
     /** TODO. */
-    public Card(int symbole) {
+    public Card(String backFace, int symbole) {
         this.showFace = false;
         this.symbole = symbole;
+        this.back = backFace;
     }
 
     /** TODO. */
-    public void showCard() {
-        if (showFace) {
-            // afficher symbole
+    public String toString() {
+        if (showFace) 
+        {
+            System.out.println(symbole);
         }
-        else {
-            // ne pas afficher
+        else 
+        {
+            System.out.println(back);
         }
+		return back;
     }
 
     /** TODO. */
     public void updateShowFace() {
-        this.showFace = !showFace;
+        if (showFace)
+        {
+        	showFace=false;
+        }
+        else
+        {
+        	showFace=true;
+        }
     }
 }

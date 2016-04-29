@@ -26,10 +26,11 @@ public class Tray {
         {
             for (int j = 0; j < Tray.HEIGHT; j++)
             {
-                String backFace = null;
-				cards[i][j] = new Card(backFace, i);
+				cards[i][j] = new Card(i);
             }
         }
+
+        
     }
 
     /** TODO. */
@@ -38,8 +39,9 @@ public class Tray {
         {
             for (int j = 0; j < Tray.HEIGHT; j++) 
             {
-                System.out.println(cards[i][j]);
+                System.out.print(cards[i][j]);
             }
+            System.out.println();
         }
     }
 }

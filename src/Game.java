@@ -23,5 +23,8 @@ public class Game {
         // Afficher le tray
         tray.print();
         // Demarrer la partie
+        System.out.println("return two cards. Press 1, 2, 3 or 4");
+        
+        
     }
 }

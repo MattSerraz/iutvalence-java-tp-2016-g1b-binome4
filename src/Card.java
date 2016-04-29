@@ -8,29 +8,28 @@ public class Card {
     /** TODO. */
     private final int symbole;
     /** TODO. */
-    public String back;
+    public String cardFace;
     /** TODO. */
     private boolean showFace;
 
     /** TODO. */
-    public Card(String backFace, int symbole) {
+    public Card(int symbole) {
         this.showFace = false;
         this.symbole = symbole;
-        this.back = backFace;
+        this.cardFace = "[X]";
     }
 
-    /** TODO. */
-    public String toString() {
-        if (showFace) 
-        {
-            System.out.println(symbole);
-        }
-        else 
-        {
-            System.out.println(back);
-        }
-		return back;
+    /** TODO. */    	
+    public String toString()
+    {
+    		if (this.showFace) {
+    			return "[" + this.symbole + "]";
+    		}
+    		else {
+    			return cardFace;
+    		}
     }
+
 
     /** TODO. */
     public void updateShowFace() {

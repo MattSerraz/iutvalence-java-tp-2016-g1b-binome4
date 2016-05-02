@@ -19,7 +19,8 @@ public class Card {
         this.cardFace = "[X]";
     }
 
-    /** TODO. */    	
+    /** TODO. */  
+    @Override
     public String toString()
     {
     		if (this.showFace) {

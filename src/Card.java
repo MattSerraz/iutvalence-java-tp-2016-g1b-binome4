@@ -14,7 +14,7 @@ public class Card {
 
     /** TODO. */
     public Card(int symbole) {
-        this.showFace = false;
+        this.showFace = true;
         this.symbole = symbole;
         this.cardFace = "[X]";
     }
@@ -33,14 +33,14 @@ public class Card {
 
 
     /** TODO. */
-    public void updateShowFace() {
-        if (showFace)
+    public void flip() {
+        if (this.showFace)
         {
-        	showFace=false;
+        	this.showFace=false;
         }
-        else
+        else 
         {
-        	showFace=true;
+        	this.showFace=true;
         }
     }
 }

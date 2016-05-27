@@ -10,11 +10,11 @@ public class Card {
     /** TODO. */
     public String cardFace;
     /** TODO. */
-    private boolean showFace;
+    public boolean showFace;
 
     /** TODO. */
     public Card(int symbole) {
-        this.showFace = true;
+        this.showFace = false;
         this.symbole = symbole;
         this.cardFace = "[X]";
     }
@@ -33,6 +33,7 @@ public class Card {
 
 
     /** TODO. */
+    // Return the card
     public void flip() {
         if (this.showFace)
         {

@@ -12,15 +12,17 @@ public class Memory {
      *
      * @param args TODO
      */
-    public static void main(final String... args) {
-		System.out.println("Welcome Toto");
-
+    public static void main(final String... args) 
+    {
+    	System.out.println("please, enter your name");
+	    Scanner sc1 = new Scanner (System.in);
+	    String name = sc1.nextLine();
+    	System.out.println("welcome "+name);
     	System.out.println("Choose the number of cards between 4, 6, 8 and 12");
-	    Scanner sc = new Scanner(System.in);               
-	    int carac = sc.nextInt();	    
+	    int carac = sc1.nextInt();	    
 	    System.out.println("You have choose to play with "+carac+" cards");
-
-    	Game game = new Game("Toto", carac);
+    	Game game = new Game(name, carac,sc1);
         game.start();
+        sc1.close();
     }
 }

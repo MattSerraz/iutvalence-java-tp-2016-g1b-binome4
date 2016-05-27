@@ -15,7 +15,13 @@ public class Player {
     }
 
     /** TODO. */
-    public String name() {
+    public String name() 
+    {
         return name;
+    }
+    
+    public String getName()
+    {
+    	return this.name;
     }
 }
